@@ -1,4 +1,5 @@
 "use client";
+import { Analytics } from "@vercel/analytics/react" 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Code2, Database, Server, Globe, Cpu, BookOpen, ExternalLink } from 'lucide-react';
