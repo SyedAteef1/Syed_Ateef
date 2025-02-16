@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Code2, Database, Server, Globe, Cpu, BookOpen, ExternalLink } from 'lucide-react';
 import mongoose from 'mongoose';
-import Contact from './contact';
+import Contact from './Contact';
 function App() {
   const [formData, setFormData] = useState({
     name: '',
